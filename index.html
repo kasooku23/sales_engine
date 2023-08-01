@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./js/viewport.js"></script>
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<title></title>
+<meta name="description" content="">
+<link rel="icon" href="./img/favicon.ico">
+<link rel="stylesheet" href="./css/reset.min.css" media="all">
+<link rel="stylesheet" href="./css/style.css" media="all">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<header id="header">
+    <div class="p-header__inner">
+        <h1 class="p-header__logo">
+            <img src="./img/logo.png" alt="Kasooku">
+        </h1>
+        <nav class="p-header__nav js-hamburger">
+            <ul class="p-header__nav--list">
+                <li><a href="#problem" class="js-hamburger-remove --nomal">アウトバウンド営業のお悩み</a></li>
+                <li><a href="#solution" class="js-hamburger-remove --nomal">サービス概要</a></li>
+                <li><a href="#feature" class="js-hamburger-remove --nomal">特徴</a></li>
+                <li><a href="#flow" class="js-hamburger-remove --nomal">ご利用の流れ</a></li>
+                <li><a href="#faq" class="js-hamburger-remove --nomal">よくあるご質問</a></li>
+                <li><a href="#contact" class="js-hamburger-remove js-btn-apply p-header__btn --apply c-hover-orange"><span class="--pc">お申込申請</span><span class="--sp">お申込申請はこちら</span></a></li>
+                <li><a href="#contact" class="js-hamburger-remove js-btn-contact p-header__btn --contact c-hover-blue"><span class="--pc">お問い合わせ</span><span class="--sp">お問い合わせはこちら</span></a></li>
+            </ul>
+        </nav>
+        <div class="p-hamburger sp-only">
+            <div class="p-hamburger__trigger js-hamburger js-hamburger-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="p-mv" id="mv">
+        <div class="p-mv__inner">
+            <h1 class="p-mv__head">
+                <span class="u-en">Kasooku</span> <br class="br-sp-only">セールスエンジンで<br>
+                <span class="--blue">商談獲得</span>を<br class="br-sp-only">もっと<span class="--blue">効率的</span>に
+            </h1>
+            <p class="p-mv__txt">顧客と出会えるビジネスマッチングサービス</p>
+            <figure class="p-mv__img">
+                <img src="./img/mv-img.webp" alt="">
+            </figure>
+            <a href="#contact" class="p-mv__btn js-btn-apply c-hover-orange">お申込申請はこちら</a>
+        </div>
+    </section>
+    <section class="p-problem l-outer" id="problem">
+        <div class="p-problem__wrapper l-wrapper">
+            <div class="p-problem__inner l-inner">
+                <p class="p-problem__subHead u-en c-subHead --blue">Problem</p>
+                <h2 class="p-problem__head c-h2">
+                    アウトバウンド営業で<br>
+                    こんなお悩み<br class="br-sp-only">ありませんか？
+                </h2>
+                <ul class="p-problem__list">
+                    <li>
+                        <h3 class="p-problem__list--head">
+                            <span class="--small">アプローチしたい企業の決済者と</span>
+                            <span class="--large --blue">アポイントが取れない</span>
+                        </h3>
+                        <figure class="p-problem__list--img">
+                            <img src="./img/problem-illust01.webp" alt="">
+                        </figure>
+                    </li>
+                    <li>
+                        <h3 class="p-problem__list--head">
+                            <span class="--small">飛び込み営業、テレアポは</span>
+                            <span class="--large --blue">営業効率が悪い</span>
+                        </h3>
+                        <figure class="p-problem__list--img">
+                            <img src="./img/problem-illust02.webp" alt="">
+                        </figure>
+                    </li>
+                    <li>
+                        <h3 class="p-problem__list--head">
+                            <span class="--small">事前にサービスニーズがあるか</span>
+                            <span class="--large --blue">判別することが困難</span>
+                        </h3>
+                        <figure class="p-problem__list--img">
+                            <img src="./img/problem-illust03.webp" alt="">
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="p-solution l-outer" id="solution">
+        <div class="p-solution__wrapper l-wrapper">
+            <div class="p-solution__inner l-inner">
+                <p class="p-solution__subHead u-en c-subHead --blue">Solution</p>
+                <h2 class="p-solution__head c-h2">
+                    <span class="u-en">Kasooku</span> <br class="br-sp-only">セールスエンジンで<br>
+                    アウトバウンド営業の<br class="br-sp-only"><span class="--blue --lower">課</span><span class="--blue --lower">題</span><span class="--blue --lower">を</span><span class="--blue --lower">解</span><span class="--blue --lower">決</span><span class="--lower">!</span>
+                </h2>
+                <div class="p-solution__content01">
+                    <p class="p-solution__content--txt">
+                        貴社がアプローチしたい企業を<br class="br-sp-only">当社の紹介者プールの<br>
+                        ソーシャルネットワークから<br class="br-sp-only">マッチングすることで、<br class="br-sp-only">良質なアポイント獲得を実現します。
+                    </p>
+                    <ul class="p-solution__list">
+                        <li>
+                            <picture class="p-solution__list--img">
+                                <source srcset="./img/solution-illust01-sp.webp" media="(max-width: 900px)">
+                                <img src="./img/solution-illust01.webp" alt="">
+                            </picture>
+                            <p class="p-solution__list--txt">企業</p>
+                        </li>
+                        <li class="--arrow">
+                            <picture class="p-solution__list--img02">
+                                <source srcset="./img/solution-arrow01-sp.png" media="(max-width: 900px)">
+                                <img src="./img/solution-arrow01.png" alt="①紹介依頼 ⑥アポイント依頼">
+                            </picture>
+                        </li>
+                        <li>
+                            <picture class="p-solution__list--img">
+                                <source srcset="./img/solution-illust02-sp.webp" media="(max-width: 900px)">
+                                <img src="./img/solution-illust02.webp" alt="">
+                            </picture>
+                            <p class="p-solution__list--txt">セールス<br>エンジン</p>
+                        </li>
+                        <li class="--arrow">
+                            <picture class="p-solution__list--img02">
+                                <source srcset="./img/solution-arrow02-sp.png" media="(max-width: 900px)">
+                                <img src="./img/solution-arrow02.png" alt="②サービス紹介 ⑤知人を紹介">
+                            </picture>
+                        </li>
+                        <li>
+                            <picture class="p-solution__list--img">
+                                <source srcset="./img/solution-illust03-sp.webp" media="(max-width: 900px)">
+                                <img src="./img/solution-illust03.webp" alt="">
+                            </picture>
+                            <p class="p-solution__list--txt">紹介者</p>
+                        </li>
+                        <li class="--arrow">
+                            <picture class="p-solution__list--img02">
+                                <source srcset="./img/solution-arrow03-sp.png" media="(max-width: 900px)">
+                                <img src="./img/solution-arrow03.png" alt="③サービス説明 ④アポイント依頼">
+                            </picture>
+                        </li>
+                        <li>
+                            <picture class="p-solution__list--img">
+                                <source srcset="./img/solution-illust04-sp.webp" media="(max-width: 900px)">
+                                <img src="./img/solution-illust04.webp" alt="">
+                            </picture>
+                            <p class="p-solution__list--txt">ソーシャル<br>ネットワーク</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="p-solution__content02">
+                    <h3 class="p-solution__content--head --blue">
+                        利用イメージ
+                    </h3>
+                    <p class="p-solution__content--txt --02">
+                        貴社サービス紹介資料、営業先リストを<br class="br-sp-only">作成・アップロードするだけで<br>
+                        アプローチしたい企業の決済者に<br class="br-sp-only">アポイントが可能です。
+                    </p>
+                    <ul class="p-solution__list02">
+                        <li>
+                            <picture class="p-solution__list02--img">
+                                <source srcset="./img/solution-img01-sp.webp" media="(max-width: 900px)">
+                                <img src="./img/solution-img01.webp" alt="">
+                            </picture>
+                            <p class="p-solution__list02--txt">貴社サービス紹介資料を<br>アップロード<br>営業先リストを作成・<br>アップロード</p>
+                        </li>
+                        <li>
+                            <picture class="p-solution__list02--img">
+                                <source srcset="./img/solution-img02-sp.webp" media="(max-width: 900px)">
+                                <img src="./img/solution-img02.webp" alt="">
+                            </picture>
+                        </li>
+                        <li>
+                            <picture class="p-solution__list02--img">
+                                <source srcset="./img/solution-img03-sp.webp" media="(max-width: 900px)">
+                                <img src="./img/solution-img03.webp" alt="">
+                            </picture>
+                            <p class="p-solution__list02--txt --02">サービスに共感した<br>紹介者が知人を紹介</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-cta l-outer --01">
+        <div class="p-cta__wrapper l-wrapper">
+            <div class="p-cta__inner l-inner">
+                <h2 class="p-cta__head">
+                    <span class="u-en">Kasooku</span> <br class="br-sp-only">セールスエンジンで<br>
+                    アウトバウンド営業の<br class="br-sp-only">課題を解決!
+                </h2>
+                <div class="p-cta__btns">
+                    <a href="#contact" class="js-btn-apply p-cta__btn --apply c-hover-orange">お申込申請はこちら</a>
+                    <a href="#contact" class="js-btn-contact p-cta__btn --contact c-hover-white">お問い合わせはこちら</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-feature l-outer" id="feature">
+        <div class="p-feature__wrapper l-wrapper">
+            <div class="p-feature__inner l-inner">
+                <p class="p-feature__subHead u-en c-subHead --blue">Feature</p>
+                <h2 class="p-feature__head c-h2">
+                    <span class="u-en">Kasooku</span> <br class="br-sp-only">セールスエンジンの特徴
+                </h2>
+                <ul class="p-feature__list">
+                    <li>
+                        <div class="p-feature__list--txts">
+                            <h3 class="p-feature__list--head">
+                                <span class="--blue">初期費用0円</span>で始められて<br>
+                                手軽に導入が可能
+                            </h3>
+                            <figure class="p-feature__list--img sp-only">
+                                <img src="./img/feature-illust01-sp.webp" alt="">
+                            </figure>
+                            <p class="p-feature__list--txt">初期費用0円で始められて貴社サービス紹介資料と営業先リストを作成するだけで導入が可能です。</p>
+                        </div>
+                        <figure class="p-feature__list--img pc-only">
+                            <img src="./img/feature-illust01-sp.webp" alt="">
+                        </figure>
+                    </li>
+                    <li>
+                        <div class="p-feature__list--txts">
+                            <h3 class="p-feature__list--head">
+                                アプローチしたい企業との<br>
+                                <span class="--blue">効率的な出会い</span>を実現
+                            </h3>
+                            <figure class="p-feature__list--img sp-only">
+                                <img src="./img/feature-illust02-sp.webp" alt="">
+                            </figure>
+                            <p class="p-feature__list--txt">営業先リストをもとに、的確なアプローチで顧客との効率的なマッチングを実現します。</p>
+                        </div>
+                        <figure class="p-feature__list--img pc-only">
+                            <img src="./img/feature-illust02.webp" alt="">
+                        </figure>
+                    </li>
+                    <li>
+                        <div class="p-feature__list--txts">
+                            <h3 class="p-feature__list--head">
+                                サービスニーズが見込める<br>顧客との<span class="--blue">良質な商談</span>を獲得
+                            </h3>
+                            <figure class="p-feature__list--img sp-only">
+                                <img src="./img/feature-illust03-sp.webp" alt="">
+                            </figure>
+                            <p class="p-feature__list--txt">紹介者が事前に貴社サービスの紹介をすることで、サービスニーズが見込める顧客との商談を獲得することが可能です。</p>
+                        </div>
+                        <figure class="p-feature__list--img pc-only">
+                            <img src="./img/feature-illust03.webp" alt="">
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="p-cta l-outer">
+        <div class="p-cta__wrapper l-wrapper">
+            <div class="p-cta__inner l-inner">
+                <h2 class="p-cta__head">
+                    <span class="u-en">Kasooku</span> <br class="br-sp-only">セールスエンジンで<br>
+                    アウトバウンド営業の<br class="br-sp-only">課題を解決!
+                </h2>
+                <div class="p-cta__btns">
+                    <a href="#contact" class="js-btn-apply p-cta__btn --apply c-hover-orange">お申込申請はこちら</a>
+                    <a href="#contact" class="js-btn-contact p-cta__btn --contact c-hover-white">お問い合わせはこちら</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-flow l-outer" id="flow">
+        <div class="p-flow__wrapper l-wrapper">
+            <div class="p-flow__inner l-inner">
+                <p class="p-flow__subHead u-en c-subHead --blue">Flow</p>
+                <h2 class="p-flow__head c-h2">
+                    ご利用の流れ
+                </h2>
+                <ol class="p-flow__list">
+                    <li>
+                        <div class="p-flow__list--nums">
+                            <span class="p-flow__list--num u-en">01</span>
+                            <figure class="p-flow__list--img">
+                                <img src="./img/flow-icon01.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="p-flow__list--txts">
+                            <h3 class="p-flow__list--head">お申し込み</h3>
+                            <p class="p-flow__list--txt">本サービスサイトから申込申請をお願いします。</p>
+                            <a href="#contact" class="js-btn-apply p-flow__list--btn c-hover-orange">お申込申請はこちら</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-flow__list--nums">
+                            <span class="p-flow__list--num u-en">02</span>
+                            <figure class="p-flow__list--img">
+                                <img src="./img/flow-icon02.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="p-flow__list--txts">
+                            <h3 class="p-flow__list--head">申込フォーム記入</h3>
+                            <p class="p-flow__list--txt">ご入力頂いたメールアドレス宛に届く申込フォームに必要事項を記入し、申込フォームの送信をお願いします。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-flow__list--nums">
+                            <span class="p-flow__list--num u-en">03</span>
+                            <figure class="p-flow__list--img">
+                                <img src="./img/flow-icon03.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="p-flow__list--txts">
+                            <h3 class="p-flow__list--head">サービス資料・<br class="br-sp-only">営業先リストの作成</h3>
+                            <p class="p-flow__list--txt">申込フォームの内容を事務局で確認後、サービス資料・営業先リストの作成・アップロードをご依頼します。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-flow__list--nums">
+                            <span class="p-flow__list--num u-en">04</span>
+                            <figure class="p-flow__list--img">
+                                <img src="./img/flow-icon04.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="p-flow__list--txts">
+                            <h3 class="p-flow__list--head">マッチング</h3>
+                            <p class="p-flow__list--txt">営業先リストの中からご紹介可能な企業を事務局からご連絡します。商談を希望される場合は、事務局が紹介者に依頼を行います。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-flow__list--nums">
+                            <span class="p-flow__list--num u-en">05</span>
+                            <figure class="p-flow__list--img">
+                                <img src="./img/flow-icon05.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="p-flow__list--txts">
+                            <h3 class="p-flow__list--head">紹介者が貴社サービスを<br class="br-sp-only">知人に紹介</h3>
+                            <p class="p-flow__list--txt">商談に向けたすり合わせのため、貴社・事務局・紹介者の三者で事前打ち合わせを実施します。その後紹介者は知人に対して貴社サービスを説明し、商談の実施意向確認後、事務局が商談の日程調整を行います。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-flow__list--nums">
+                            <span class="p-flow__list--num u-en">06</span>
+                            <figure class="p-flow__list--img">
+                                <img src="./img/flow-icon06.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="p-flow__list--txts">
+                            <h3 class="p-flow__list--head">商談実施</h3>
+                            <p class="p-flow__list--txt">貴社・紹介先・紹介者の三者で商談を実施します。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-flow__list--nums">
+                            <span class="p-flow__list--num u-en">07</span>
+                            <figure class="p-flow__list--img">
+                                <img src="./img/flow-icon07.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="p-flow__list--txts">
+                            <h3 class="p-flow__list--head">商談完了</h3>
+                            <p class="p-flow__list--txt">商談後、貴社から事務局に対し商談完了報告を行っていただきます。<br>この時点で、ご協力金が確定となります。</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section class="p-faq l-outer" id="faq">
+        <div class="p-faq__wrapper l-wrapper">
+            <div class="p-faq__inner l-inner">
+                <p class="p-faq__subHead u-en c-subHead --blue">FAQ</p>
+                <h2 class="p-faq__head c-h2">
+                    よくあるご質問
+                </h2>
+                <ul class="p-faq__list">
+                    <li class="js-faq-btn">
+                        <h3 class="p-faq__question"><span class="u-en p-faq__question--num --blue">Q1</span>導入に費用はかかりますか？<span class="p-faq__question--plus"></span></h3>
+                        <p class="p-faq__answer">
+                            初期費用は0円、月額費用として5万円(税別)が発生します。<br>
+                            初期費用・月額費用とは別に、紹介先との商談が完了することでご協力金が発生します。
+                        </p>
+                    </li>
+                    <li class="js-faq-btn">
+                        <h3 class="p-faq__question"><span class="u-en p-faq__question--num --blue">Q2</span>月額費用はいつから発生しますか？<span class="p-faq__question--plus"></span></h3>
+                        <p class="p-faq__answer">
+                            お申し込み頂いた日の翌月から月額費用が発生し、翌月末払いにてご請求させていただきます。<br>
+                            またお申し込み初月は無料となっておりますが、初月のご解約は出来ません。
+                        </p>
+                    </li>
+                    <li class="js-faq-btn">
+                        <h3 class="p-faq__question"><span class="u-en p-faq__question--num --blue">Q3</span>最低契約期間はありますか？<span class="p-faq__question--plus"></span></h3>
+                        <p class="p-faq__answer">
+                            最低契約期間は1ヶ月として定めさせていただいております。
+                        </p>
+                    </li>
+                    <li class="js-faq-btn">
+                        <h3 class="p-faq__question"><span class="u-en p-faq__question--num --blue">Q4</span>ご協力金とは何ですか？<span class="p-faq__question--plus"></span></h3>
+                        <p class="p-faq__answer">
+                            ご協力金とは、紹介先との商談が完了した際に貴社からお礼として支払うお金のことです。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="p-contact l-outer" id="contact">
+        <div class="p-contact__wrapper l-wrapper">
+            <div class="p-contact__inner l-inner">
+                <p class="p-contact__subHead u-en c-subHead --blue">Contact</p>
+                <h2 class="p-contact__head c-h2">
+                    お問い合わせ
+                </h2>
+                <div class="p-contact__contents">
+                    <div class="p-contact__tabs">
+                        <h3 class="p-contact__tab js-btn-apply js-active" id="tab-apply">お申し込み</h3>
+                        <h3 class="p-contact__tab js-btn-contact" id="tab-contact">お問い合わせ</h3>
+                    </div>
+                    <div class="p-contact__form js-active" id="form-apply">
+                        <p class="p-contact__txt">以下のフォームに必要事項をご入力の上、<br class="br-sp-only">送信ください。</p>
+                        <form method="post" action="./mail.php">
+                            <div class="p-contact__form--table">
+                                <dl>
+                                    <dt>会社名<span class="--required">必須</span></dt>
+                                    <dd><input type="text" name="会社名" placeholder="株式会社○○" required></dd>
+                                </dl>
+                                <dl>
+                                    <dt>所属部門<span class="--required">必須</span></dt>
+                                    <dd><input type="text" name="所属部門" placeholder="営業部・販売部門" required></dd>
+                                </dl>
+                                <dl>
+                                    <dt>役職<span class="--required">必須</span></dt>
+                                    <dd><input type="text" name="役職" placeholder="部長" required></dd>
+                                </dl>
+                                <dl>
+                                    <dt>氏名<span class="--required">必須</span></dt>
+                                    <dd><input type="text" name="氏名" placeholder="山田太郎" required></dd>
+                                </dl>
+                                <dl>
+                                    <dt>メールアドレス<span class="--required">必須</span></dt>
+                                    <dd><input type="email" name="メールアドレス" placeholder="xxx@mail.com" required></dd>
+                                </dl>
+                                <dl>
+                                    <dt>電話番号<span class="--required">必須</span></dt>
+                                    <dd><input type="tel" name="電話番号" placeholder="090-0000-0000" required></dd>
+                                </dl>
+                            </div>
+                            <div class="p-contact__agreement">
+                                <label for="agreement" class="having-checkbox">
+                                    <input name="個人情報保護方針" id="agreement" type="checkbox" value="同意する" required>
+                                    <span class="--wrapper"><span class="--txt"><a href="https://kasooku.jp/privacy" target="_blank" class="--nomal">個人情報</a>の取扱に同意します。</span></span>
+                                </label>
+                                <p class="p-contact__txt --02">送信ボタンを押す前に、再度入力内容のご確認を<br class="br-sp-only">お願い致します。</p>
+                            </div>
+                            <div class="p-contact__wrapper--btn">
+                                <input type="submit" value="申込申請" class="p-contact__btn">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="p-contact__form" id="form-contact">
+                        <h3 class="p-contact__form--head">
+                            課題に対する開発ソリューション、導入事例、及び、<br class="br-pc-only">よくあるご質問などをご確認いただけます。
+                        </h3>
+                        <p class="p-contact__txt --03">以下のフォームに必要事項をご入力の上、<br class="br-sp-only">送信ください。</p>
+                        <form method="post" action="./mail02.php">
+                            <div class="p-contact__form--table">
+                                <dl>
+                                    <dt>会社名<span class="--required">必須</span></dt>
+                                    <dd><input type="text" name="会社名" placeholder="株式会社○○" required></dd>
+                                </dl>
+                                <dl>
+                                    <dt>所属部門<span class="--required">必須</span></dt>
+                                    <dd><input type="text" name="所属部門" placeholder="営業部・販売部門" required></dd>
+                                </dl>
+                                <dl>
+                                    <dt>役職<span class="--required">必須</span></dt>
+                                    <dd><input type="text" name="役職" placeholder="部長" required></dd>
+                                </dl>
+                                <dl>
+                                    <dt>氏名<span class="--required">必須</span></dt>
+                                    <dd><input type="text" name="氏名" placeholder="山田太郎" required></dd>
+                                </dl>
+                                <dl>
+                                    <dt>メールアドレス<span class="--required">必須</span></dt>
+                                    <dd><input type="email" name="メールアドレス" placeholder="xxx@mail.com" required></dd>
+                                </dl>
+                                <dl>
+                                    <dt>電話番号<span class="--required">必須</span></dt>
+                                    <dd><input type="tel" name="電話番号" placeholder="090-0000-0000" required></dd>
+                                </dl>
+                                <dl class="--check">
+                                    <dt>お問い合わせの目的<span class="--required">必須</span></dt>
+                                    <dd>
+                                        <label for="check01" class="having-checkbox">
+                                            <input name="お問い合わせの目的" id="check01" type="radio" value="資料請求" class="check" required>
+                                            <span class="--wrapper">資料請求</span>
+                                        </label>
+                                        <label for="check02" class="having-checkbox">
+                                            <input name="お問い合わせの目的" id="check02" type="radio" value="お問い合わせ" class="check">
+                                            <span class="--wrapper">お問い合わせ</span>
+                                        </label>
+                                    </dd>
+                                </dl>
+                                <dl id="js-textarea">
+                                    <dt>お問い合わせの目的</dt>
+                                    <dd><textarea name="内容詳細" cols="0" rows="0"></textarea></dd>
+                                </dl>
+                            </div>
+                            <div class="p-contact__agreement">
+                                <label for="agreement02" class="having-checkbox">
+                                    <input name="個人情報保護方針" id="agreement02" type="checkbox" value="同意する" required>
+                                    <span class="--wrapper"><span class="--txt"><a href="https://kasooku.jp/privacy" target="_blank" class="--nomal">個人情報</a>の取扱に同意します。</span></span>
+                                </label>
+                                <p class="p-contact__txt --02">送信ボタンを押す前に、再度入力内容のご確認を<br class="br-sp-only">お願い致します。</p>
+                            </div>
+                            <div class="p-contact__wrapper--btn">
+                                <input type="submit" value="送信する" class="p-contact__btn">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<a href="#contact" class="js-btn-contact p-float --nomal" id="float">
+    <div class="p-float__upper">
+        <picture class="p-float__txts">
+            <source srcset="./img/float-txts-sp.webp" media="(max-width: 900px)">
+            <img src="./img/float-txts.webp" alt="8月まで限定 事前登録キャンペーン 月額料金無料 登録は9月からスタート">
+        </picture>
+    </div>
+    <div class="p-float__lower">
+        <p class="p-float__txt --blue">
+            <span>詳しい料金は資料請求</span>
+        </p>
+    </div>
+</a>
+<footer class="p-footer --top">
+    <div class="p-footer__inner">
+        <a href="https://business.kasooku.jp/" target="_blank" class="p-footer__logo --nomal">
+            <img src="./img/logo-white.png" alt="Kasooku">
+        </a>
+        <ul class="p-footer__nav">
+            <li><a href="https://kasooku.jp/company" target="_blank" class="--nomal">会社案内</a></li>
+            <li><a href="https://kasooku.jp/privacy" target="_blank" class="--nomal">個人情報保護方針</a></li>
+        </ul>
+    </div>
+</footer>
+<script src="./js/common.js"></script>
+</body>
+</html>
